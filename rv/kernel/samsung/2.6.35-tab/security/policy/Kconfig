@@ -1,0 +1,5 @@
+config SEC_POLICY
+	tristate "Android Security Policy"
+	default n
+	help
+	This is the security policy driver for android.

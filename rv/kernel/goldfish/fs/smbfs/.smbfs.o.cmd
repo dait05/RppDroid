@@ -1,0 +1,1 @@
+cmd_fs/smbfs/smbfs.o := /home/benthian89/RVDroid/android-security/src-cm7sgt/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o fs/smbfs/smbfs.o fs/smbfs/proc.o fs/smbfs/dir.o fs/smbfs/cache.o fs/smbfs/sock.o fs/smbfs/inode.o fs/smbfs/file.o fs/smbfs/ioctl.o fs/smbfs/getopt.o fs/smbfs/symlink.o fs/smbfs/smbiod.o fs/smbfs/request.o 

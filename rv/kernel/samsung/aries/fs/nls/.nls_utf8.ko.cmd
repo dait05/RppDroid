@@ -1,0 +1,1 @@
+cmd_fs/nls/nls_utf8.ko := /home/benthian89/RVDroid/android-security/src-cm7sgt/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/benthian89/RVDroid/android-security/src-cm7sgt/kernel/samsung/aries/scripts/module-common.lds --build-id -o fs/nls/nls_utf8.ko fs/nls/nls_utf8.o fs/nls/nls_utf8.mod.o

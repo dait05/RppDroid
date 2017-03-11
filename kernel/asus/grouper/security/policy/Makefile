@@ -1,0 +1,15 @@
+
+KERNEL_DIR =/data/daiting/cmnew/kernel/asus/grouper
+
+obj-m := policyko.o
+policyko-objs := policy.o vector.o
+PWD :=$(shell pwd)
+default:
+	$(MAKE) ARCH=arm CROSS_COMPILE=/data/daiting/cmnew/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7/bin/arm-linux-androideabi- -C $(KERNEL_DIR) SUBDIRS=$(PWD) modules	
+	
+#make -C /home/benthian89/RVDroid/android-security/src-cm7sgt/kernel/goldfish M=$(PWD) modules
+
+clean:
+	$(MAKE) -C $(KERNEL_DIR) SUBDIRS=$(PWD) clean
+
+#make -C /home/benthian89/RVDroid/android-security/src-cm7sgt/kernel/goldfish M=$(PWD) clean

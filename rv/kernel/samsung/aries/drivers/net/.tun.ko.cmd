@@ -1,0 +1,1 @@
+cmd_drivers/net/tun.ko := /home/benthian89/RVDroid/android-security/src-cm7sgt/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/benthian89/RVDroid/android-security/src-cm7sgt/kernel/samsung/aries/scripts/module-common.lds --build-id -o drivers/net/tun.ko drivers/net/tun.o drivers/net/tun.mod.o

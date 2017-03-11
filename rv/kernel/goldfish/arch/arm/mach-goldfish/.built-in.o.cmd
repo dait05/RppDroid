@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-goldfish/built-in.o :=  /home/benthian89/RVDroid/android-security/src-cm7sgt/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o arch/arm/mach-goldfish/built-in.o arch/arm/mach-goldfish/pdev_bus.o arch/arm/mach-goldfish/timer.o arch/arm/mach-goldfish/switch.o arch/arm/mach-goldfish/pm.o arch/arm/mach-goldfish/board-goldfish.o 

@@ -1,0 +1,4 @@
+swl_monitor_SecEnvManager.h is generated automatically by 
+cd monitor/java
+javac swl/monitor/SecEnvManager.java
+javah swl.monitor.SecEnvManager

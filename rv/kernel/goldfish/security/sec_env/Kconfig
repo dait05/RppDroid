@@ -1,0 +1,5 @@
+config SEC_ENV
+	tristate "Android Security Envrionment Driver"
+	default n
+	help
+	This is the secure environment driver for android.

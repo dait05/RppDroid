@@ -1,0 +1,1 @@
+cmd_usr/initramfs_data.cpio := /bin/sh /home/benthian89/RVDroid/android-security/src-cm7sgt/kernel/samsung/aries/scripts/gen_initramfs_list.sh -o usr/initramfs_data.cpio  -u "0"  -g "0"  usr/galaxysmtd_initramfs.list

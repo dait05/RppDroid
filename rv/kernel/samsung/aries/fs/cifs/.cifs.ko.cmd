@@ -1,0 +1,1 @@
+cmd_fs/cifs/cifs.ko := /home/benthian89/RVDroid/android-security/src-cm7sgt/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/benthian89/RVDroid/android-security/src-cm7sgt/kernel/samsung/aries/scripts/module-common.lds --build-id -o fs/cifs/cifs.ko fs/cifs/cifs.o fs/cifs/cifs.mod.o

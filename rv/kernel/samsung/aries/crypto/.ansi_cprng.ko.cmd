@@ -1,0 +1,1 @@
+cmd_crypto/ansi_cprng.ko := /home/benthian89/RVDroid/android-security/src-cm7sgt/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/benthian89/RVDroid/android-security/src-cm7sgt/kernel/samsung/aries/scripts/module-common.lds --build-id -o crypto/ansi_cprng.ko crypto/ansi_cprng.o crypto/ansi_cprng.mod.o

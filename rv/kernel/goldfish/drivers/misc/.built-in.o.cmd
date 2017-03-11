@@ -1,0 +1,1 @@
+cmd_drivers/misc/built-in.o :=  /home/benthian89/RVDroid/android-security/src-cm7sgt/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/misc/built-in.o drivers/misc/pmem.o drivers/misc/goldfish_audio.o drivers/misc/qemutrace/built-in.o drivers/misc/qemupipe/built-in.o drivers/misc/eeprom/built-in.o 

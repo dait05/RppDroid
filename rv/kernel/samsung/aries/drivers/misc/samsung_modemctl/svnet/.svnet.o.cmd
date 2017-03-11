@@ -1,0 +1,1 @@
+cmd_drivers/misc/samsung_modemctl/svnet/svnet.o := /home/benthian89/RVDroid/android-security/src-cm7sgt/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/misc/samsung_modemctl/svnet/svnet.o drivers/misc/samsung_modemctl/svnet/main.o drivers/misc/samsung_modemctl/svnet/pdp.o drivers/misc/samsung_modemctl/svnet/sipc4.o 

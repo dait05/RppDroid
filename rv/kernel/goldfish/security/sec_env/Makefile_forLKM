@@ -1,0 +1,5 @@
+obj-m += sec_env.o
+all:
+	ARCH=arm CROSS_COMPILE=/home/xiaolei/Documents/android/android-security/src-cm7sgt/prebuilt/linux-x86/toolchain/arm-eabi-4.2.1/bin/arm-eabi- make -C /home/xiaolei/Documents/android/android-security/src-cm7sgt/kernel/goldfish M=$(PWD) modules
+clean:
+	ARCH=arm CROSS_COMPILE=/home/xiaolei/Documents/android/android-security/src-cm7sgt/prebuilt/linux-x86/toolchain/arm-eabi-4.2.1/bin/arm-eabi- make -C /home/xiaolei/Documents/android/android-security/src-cm7sgt/kernel/goldfish M=$(PWD) clean

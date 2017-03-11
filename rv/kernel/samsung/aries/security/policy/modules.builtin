@@ -1,0 +1,2 @@
+kernel/security/policy/policy.ko
+kernel/security/policy/vector.ko
